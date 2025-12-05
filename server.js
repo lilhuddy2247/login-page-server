@@ -14,7 +14,7 @@ app.post("/login", (req, res) => {
     res.send("Login received");
 });
 
-app.get("/", (req, res) => {
+app.get("/login", (req, res) => {
     res.send("Render server is running");
 });
 
